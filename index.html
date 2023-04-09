@@ -6,6 +6,7 @@
     <title>Coffe Shop Tia Rosa</title>
     <link rel="icon" type="image/png" href="media/img/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,8 +17,9 @@
         </div>
         <ul class="menu">
             <li><a href="#historia">Sobre Nós</a></li>
-            <li><a href="#galeria">Galeria</a></li>
-            <li><a href="index.html">Contato</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#lojas">Lojas</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
     <div class="video-container">
@@ -48,7 +50,7 @@
                 amor. </p>
         </div>
     </section>
-    <section id="galeria" class="imagem-section">
+    <section id="cardapio" class="imagem-section">
         <div>
             <h2>Galeria</h2>
             <div class="imagem-container">
@@ -64,7 +66,140 @@
         </div>
     </section>
 
+    <section class="lojas-section">
+        <h2>Lojas</h2>
+        <div class="lojas-container">
+            <div class="mapa-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18262.518264792907!2d-47.88541100887525!3d-15.792268512661035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b3c2a6e99f3%3A0x82609d19eae687e1!2sShopping%20Conjunto%20Nacional!5e0!3m2!1spt-BR!2sbr!4v1680962143687!5m2!1spt-BR!2sbr"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="lojas" class="lojas-container">
+                <div class="loja">
+                    <h3>Coffee Shop Tia Rosa Asa Sul</h3>
+                    <p>Endereço: SHCS CLS 404 BL C Loja 33 - Asa Sul, Brasília - DF, 70237-530</p>
+                    <p>Telefone: (61) 98765-4321</p>
+                </div>
+                <div class="loja">
+                    <h3>Coffee Shop Tia Rosa Café Especial</h3>
+                    <p>SHCN CL 201 Bloco C Loja 26, Brasília - DF</p>
+                    <p>(61) 12345-6789</p>
+                </div>
+                <div class="loja">
+                    <h3>Coffee Shop Tia Rosa Lago Norte</h3>
+                    <p>Endereço: SHIN CA 4, Lago Norte, Brasília - DF, 71503-504</p>
+                    <p>Telefone: (61) 99876-5432</p>
+                </div>
+                <div class="loja">
+                    <h3>Coffee Shop Tia Rosa Taguatinga</h3>
+                    <p>Endereço: QSA 13 Lote 01/02 Avenida Sandu, Taguatinga Sul, Brasília - DF, 72020-130</p>
+                    <p>Telefone: (61) 98765-4321</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-section">
+
+        <div class="form-container">
+            <h2>Entre em contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="imagem-container-form">
+            <img src="media/img/form-img.png" alt="Imagem 1">
+        </div>
+    </section>
+
+
+
+
+
+
+    <a href="#" class="btn-topo"><i class="fas fa-chevron-up"></i></a>
+
 
 </body>
+<footer>
+    <div class="footer-logo">
+        <img src="media/img/logo.png" alt="Logo">
+    </div>
+    <div class="footer-info">
+        <div class="footer-col">
+            <h3>Sobre nós</h3>
+            <ul>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Missão e Valores</a></li>
+                <li><a href="#">Equipe</a></li>
+                <li><a href="#">Parceiros</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Fale conosco</h3>
+            <ul>
+                <li><a href="#">Telefone</a></li>
+                <li><a href="#">E-mail</a></li>
+                <li><a href="#">Redes Sociais</a></li>
+                <li><a href="#">Formulário de Contato</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Cardápio</h3>
+            <ul>
+                <li><a href="#">Cafés</a></li>
+                <li><a href="#">Bebidas</a></li>
+                <li><a href="#">Comidas</a></li>
+                <li><a href="#">Sobremesas</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Aviso</h3>
+            <ul>
+                <li><a href="#">Este site é apenas um template utilizado para fins educacionais e todas as informações
+                        presentes são ilustrativas. Qualquer semelhança com empresas ou organizações reais é mera
+                        coincidência.</a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+<div class="bottom-bar">
+    <div class="developed-by">
+        <p>Desenvolvido por Adriel Teles</p>
+        <a href="https://github.com/adrielteles/CoffeShopTiaRosa" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</div>
+
+<script>
+    var btnTopo = document.querySelector('.btn-topo');
+
+    window.onscroll = function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTopo.style.display = 'block';
+        } else {
+            btnTopo.style.display = 'none';
+        }
+    };
+
+    btnTopo.onclick = function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    };
+
+</script>
 
 </html>
